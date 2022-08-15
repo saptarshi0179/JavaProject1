@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping
+        SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+        <hibernate-mapping>
+        <class name="com.studentInfo.Product" table="Product">
+           
+            
+        
+        <id name="Pid" column="Pid">
+       <generator class="increment"/>
+        </id>
+        <property name="Pname" length="20"></property>
+        <property name="Price" ></property>
+        </class>   
+        
+        </hibernate-mapping>
+        
